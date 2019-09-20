@@ -6,6 +6,7 @@ let imagenA = cv.imread('rect_2_1.png').cvtColor(cv.COLOR_RGB2GRAY);
 let imagenB = cv.imread('rect_2_2.png').cvtColor(cv.COLOR_RGB2GRAY);
 let imagenC = cv.imread('rect_2_3.png').cvtColor(cv.COLOR_RGB2GRAY);
 let imagenD = cv.imread('rect_2_4.png').cvtColor(cv.COLOR_RGB2GRAY);
+
 //Primera parte, Fuerza bruta
 //genero los desplazamientos
 // let desplazamientos=makeMovements(image.sizes[0],image.sizes[1])
